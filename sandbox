@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+set -e
+
+CURRENT_PATH=`pwd`
+PARENT_DIR=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
+SANDBOX_DIR=$PARENT_DIR/_sandbox
+if [ ! -d "$SANDBOX_DIR" ]; then
+    echo "Pulling sandbox... (POC: Block Event)"
+    git clone https://github.com/ubinix-warun/algorand-sandbox.git $SANDBOX_DIR
+    cd $SANDBOX_DIR
+    echo "Checkout sandbox... (Branch: Block Event)"
+    git checkout block-pubsub
+    cd $CURRENT_PATH
+fi
+
+$SANDBOX_DIR/sandbox "$@"

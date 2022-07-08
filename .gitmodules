@@ -1,0 +1,4 @@
+[submodule "algorand-indexer"]
+	path = algorand-indexer
+	url = https://github.com/ubinix-warun/algorand-indexer.git
+	branch = block-pubsub

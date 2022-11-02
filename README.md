@@ -4,8 +4,8 @@ PyTEAL Offchain Worker with Algorand Indexer (PubSub Event)
 
 <img src="https://user-images.githubusercontent.com/3756229/178026599-9322dbd6-d80b-4dac-bd05-6c293d47a567.png" width="80%">
 
-* https://github.com/ubinix-warun/algorand-indexer -- indexer with pubsub event, implement with websocket.
-* https://github.com/ubinix-warun/algorand-sandbox -- sandbox toolkit for quickstart node/indexer and pg.
+* [https://github.com/ubinix-warun/algorand-indexer](https://github.com/ubinix-warun/algorand-indexer/tree/block-pubsub) -- indexer with pubsub event, implement with websocket.
+* [https://github.com/ubinix-warun/algorand-sandbox](https://github.com/ubinix-warun/algorand-sandbox/tree/block-pubsub) -- sandbox toolkit for quickstart node/indexer and pg.
 
 ### [Sandbox up & Demo.py](https://youtu.be/aEPHzJXoEp4)
 
